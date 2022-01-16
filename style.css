@@ -1,0 +1,43 @@
+@font-face{
+  font-family: assets/frozbite;
+  src: url(FROZBITE.ttf);
+}
+html,body{
+  overflow: hidden;
+}
+
+button{
+  border-radius: 50%;
+  border: 2px solid;
+  width: 40vmax;
+  height: 40vmax;
+}
+
+#button_div{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+#sheesh{
+  background-color: #CCF8FF; 
+
+  font-size: 8vmax;
+  font-family: frozbite;
+  color: #35D2EB;
+  margin: auto;
+}
+#sheesh:hover{
+  background-color:#7EDFEE;
+  color: #39646B;
+  border-color: #19606B;
+}
+#sheesh:active{
+  background-color: #2AA5B8; 
+  color: #CCF8FF;
+  border-color: #0D3238;
+  
+}
